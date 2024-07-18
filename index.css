@@ -1,0 +1,197 @@
+
+.mainContainer {
+    background-color: #DEEFF5;
+    min-height: 100vh;
+    border: 0px;
+    margin: 0px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 550px;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleHeading {
+    font-size: bold;
+    font-size: 20px;
+
+}
+
+.logoImage {
+    height: 50px;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.searchBar {
+    height: 32px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.deleteIcon {
+    height: 24px;
+    padding: 4px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid grey;
+    background-color: white;
+}
+
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.input1 {
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    outline: none;   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+}
+
+.input2 {
+    border: none;
+    min-height: 30px;
+    width: 400px;
+    padding: 10px;
+    outline: none;   
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.buttonBoxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.archiveButton {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.trashButton {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 3px;    
+    margin-right: 70px;
+}
+
+.addButton {
+    margin-right: 360px;
+    margin-top: 5px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;   
+}
+
+.headingNotes {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.todoItems {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.todoItemStyle {
+    list-style-type: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 6px;
+    min-height: 80px;
+    width: 250px;
+    margin: 6px;
+}
+
+.titleStyle {
+    font-size: 20px;
+}
+
+.paraCommentsStyle {
+    font-size: 15px;
+}
+
+.box11Style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteIconStyle {
+    color: black;
+    height: 25px;
+}
+
+.box22Style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newClasss {
+    border: 2px solid red;
+    background-color: #004080;
+}
+
+.headAndBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.saveButton {
+    margin-left: 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Google Keep </title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+    <div class = "mainContainer">
+        <div class = "headerContainer">
+            <div class = "logoBox">
+                <img src = "https://www.gstatic.com/images/branding/product/2x/keep_2020q4_48dp.png" alt = "logo" class = "logoImage"/>
+                <h1 class="titleHeading"> Note Maker </h1>
+            </div>
+
+            <div class = "searchBox">
+                <img src = "https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png" alt="searchimage" class="deleteIcon"/>
+                <input type = "search" placeholder="Search" id = "searchItemsId" class="searchBar"/>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="inputsContainer">
+            <input type = "text" class="input1" id="titleInput" placeholder="Title"/>
+            <textarea id="comment" name="comments" rows="4" cols="50" class="input2" placeholder="Take a note..."></textarea>
+            <button class="addButton" id="addBtn"> Add </button>
+        </div>
+
+        <div class="buttonBoxContainer">
+            <button class="archiveButton" id="archiveBtns"> Archive </button>
+            <button class="trashButton" id="trashBtns"> Trash </button>
+        </div>
+
+        <div class="bottomContainer">
+            <div class="headAndBtn">
+                <h1 class="headingNotes"> My Notes </h1>
+                <button class="saveButton" id = "saveButtonItem"> Save </button>
+            </div>
+            <div class="todoItems" id="todoItemsContainer">
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>
